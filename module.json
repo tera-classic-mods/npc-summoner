@@ -1,0 +1,14 @@
+{
+    "name": "npc-summoner",
+    "author": "HSDN / Salchy",
+    "description": "Summon any NPC (merchant, bank, broker) from anywhere",
+    "options": {
+        "niceName": "NPC Summoner",
+        "settingsVersion": 3,
+        "settingsFile": "config.json",
+        "reloadable": true,
+        "settingsMigrator": "settings_migrator.js"
+    },
+    "servers": ["https://raw.githubusercontent.com/tera-classic-mods/npc-summoner/master/"],
+    "disableAutoUpdate": false
+}
