@@ -14,6 +14,10 @@ const DefaultSettings = {
 			"type": 27,
 			"value": 3
 		},
+		"mail": {
+			"type": 8,
+			"value": 0
+		},
 		// For other NPCs.
 		// You can use "npcsummoner" command to enable debug for get values.
 		"store": {

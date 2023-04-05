@@ -9,6 +9,7 @@ Toolbox(/8) | Command description
 **broker** | Trade Broker
 **bank** | Bank
 **gbank** | Guild Bank
+**mail** | Mail/parcel
 **store** | Merchant
 **sstore** | Specialty Store
 
