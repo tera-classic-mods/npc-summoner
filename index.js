@@ -71,6 +71,17 @@ module.exports = function NpcSummoner(mod) {
 
 		debugData = [];
 	});
+	mod.hook("S_STORE_SELL_LIST", 1, event => {
+		if (!debug) return;
+
+		debugData.push(`   "value1": ${event.button}`);
+		debugData.forEach(data => {
+			console.log(data);
+			mod.command.message(data);
+		});
+
+		debugData = [];
+	});
 
 	this.destructor = () => {
 		mod.command.remove(["broker", ...Object.keys(mod.settings.npc)]);
