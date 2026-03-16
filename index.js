@@ -48,7 +48,7 @@ module.exports = function NpcSummoner(mod) {
 		}
 	});
 
-	mod.hook("S_DIALOG", 2, event => {
+	mod.hook("S_DIALOG", "*", event => {
 		if (!debug) return;
 
 		debugData = [
